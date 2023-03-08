@@ -1,4 +1,3 @@
-package BaiThucHanh0103;
 
 import java.util.Scanner;
 
@@ -12,6 +11,7 @@ public class Slide47 {
             tong = tong+x;
         }
         System.out.println("Tong cac so da nhap=" +tong);
+        sc.close();
     }
     
 }

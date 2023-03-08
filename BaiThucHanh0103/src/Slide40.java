@@ -1,4 +1,4 @@
-package BaiThucHanh0103;
+
 
 import java.util.Scanner;
 
@@ -26,6 +26,7 @@ public class Slide40 {
             default:System.out.println("Khong phai ngay trong tuan");
             break;
         }
+        sc.close();
     }
     
 }

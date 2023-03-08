@@ -1,4 +1,3 @@
-package BaiThucHanh2022;
 
 import java.util.Scanner;
 
@@ -22,8 +21,8 @@ public class Slide34 {
             x1 = (-b + Math.sqrt(delta)) / (2 * a);
             x2 = (-b - Math.sqrt(delta)) / (2 * a);
             System.out.println("Phuong trinh co 2 nghiem: x1=" + x1 + "va x2=" + x2);
-
         }
+        scanner.close();
     }
 
 }
