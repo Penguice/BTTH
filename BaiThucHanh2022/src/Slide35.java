@@ -1,4 +1,3 @@
-package BaiThucHanh2022;
 
 import java.util.Scanner;
 
@@ -17,6 +16,7 @@ public class Slide35 {
         } else if (a < b) {
             System.out.println("So nho nhat la:" + a);
         }
+        scanner.close();
     }
 
 }

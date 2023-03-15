@@ -1,4 +1,3 @@
-package BaiThucHanh2022;
 
 import java.util.Scanner;
 
@@ -17,7 +16,7 @@ public class Slide30 {
             tong += soDu;
         }
         System.out.println("Tong cac chu so=" + tong);
-
+    scanner.close();
     }
 
 }
