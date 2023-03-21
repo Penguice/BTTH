@@ -13,7 +13,7 @@ public class Bai8 {
             tong+=a;
         }
         tbc=tong/n;
-        System.out.println("Trung binh cong cac so da nhap la"+tbc);
+        System.out.println("Trung binh cong cac so da nhap la "+tbc);
         sc.close();
     }
     
