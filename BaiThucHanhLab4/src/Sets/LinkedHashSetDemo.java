@@ -3,19 +3,24 @@ package Sets;
 import java.util.Scanner;
 
 public class LinkedHashSetDemo {
-    public String FullName;
-    public int Age;
+    public static void main(String[] args) {
+    HashSet<Student> stHashSet=new HashSet<>(); 
+    Scanner sc = new Scanner(System.in);
 
-    public void nhapthongtin() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap ho va ten: ");
-        FullName = sc.nextLine();
-        System.out.print("Nhap tuoi: ");
-        Age = sc.nextInt();
+    System.out.print("Nhap so nguoi can them vao danh sach: ");
+    int n = sc.nextInt();
+
+    for (int i = 0; i < n; i++) {
+        Student St = new Student();
+        System.out.println("Nhap thong tin nguoi thu " + (i+1) + ":");
+        St.nhapthongtin();
+        stHashSet.add(St);
     }
 
-    public void hienthithongtin() {
-        System.out.println("Ho va ten: " + FullName);
-        System.out.println("Tuoi: " + Age);
+    System.out.println("Danh sach nguoi vua nhap la:");
+    for (Student St : stHashSet) {
+        St.hienthithongtin();
+    
     }
+}
 }
